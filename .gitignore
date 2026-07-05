@@ -1,0 +1,29 @@
+# Datasets (se descargan aparte, ver README)
+datos/*
+!datos/README.md
+*.tar.gz
+*.zip
+
+# Pesos de modelos entrenados
+*.pth
+*.pt
+*.ckpt
+
+# Archivos locales que no van al repositorio
+_archivo_local/
+*.bak
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
